@@ -1,0 +1,2 @@
+Account Name,Category,BDR,AE,Segment,SFDC URL,Revenue,Description,Website,Geographies,Dev Count,LinkedIn,Parent Account,Parent SFDC URL
+Acme Corp,Farming,Sarah Jenkins,Michael Chen,Enterprise Field,https://salesforce.com/accounts/acme-corp,$12.4B,"Global leader in digital transformation and cloud infrastructure services.",https://acme.com,"HQ: New York, USA (Primary hubs in London, Bangalore, Tokyo)",15000+,https://linkedin.com/company/acme,Acme Global Holdings (G-11002),https://salesforce.com/accounts/parent-acme

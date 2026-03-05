@@ -1,0 +1,4 @@
+Account Name,Name,Role,Team,Type,Email,Phone,Location,SFDC URL,Reason,Score
+Acme Corp,Alex Rivers,QA Manager,Core Platform,Handraiser,alex.rivers@acme.com,+1 (555) 123-4567,"San Francisco, USA",https://salesforce.com/leads/u1,Requested sales contact after Masterclass,98
+Acme Corp,Taylor Wong,QA Lead,Mobile App,Champion,taylor.w@acme.com,+1 (555) 987-6543,"Austin, USA",https://salesforce.com/leads/u2,High usage + 5 marketing touches,92
+Acme Corp,Sam Chen,SDET,Core Platform,Most Engaged,sam.chen@acme.com,+1 (555) 444-5555,"Toronto, Canada",https://salesforce.com/leads/u3,Attended last 3 webinars in 30 days,85

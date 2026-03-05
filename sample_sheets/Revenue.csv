@@ -1,0 +1,6 @@
+Account Name,Group ID,Group Name,User Count,Product,Spend,Status,Term,Renewal,Active Trial,Completed Trial
+Acme Corp,GID-8821,Core Platform,156,Automate,$12000/yr,Active,Annual,"Oct 12, 2024",Percy (Expiring in 4d),Visual Testing (Feb 2024)
+Acme Corp,GID-8821,Core Platform,156,App Live,$450/mo,Active,Monthly,"Apr 01, 2024",,
+Acme Corp,GID-4402,Mobile App,42,App Live,$8200/yr,Active,Annual,"Jan 20, 2025",Automate (Started Today),App Automate (Dec 2023)
+Acme Corp,GID-1105,Legacy QA,12,Automate,$0,Churned,Annual,Expired,,Percy (Jan 2024)
+Acme Corp,GID-1105,Legacy QA,12,,,,,,,"Accessibility Testing (Nov 2023)"

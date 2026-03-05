@@ -1,0 +1,10 @@
+Account Name,Name,Group ID,Amount,Status,SFDC Link,Close Date
+Acme Corp,Enterprise Expansion - Mobile App Team,GID-8821,$45000,Negotiation,https://salesforce.com/opp/1,
+Acme Corp,Percy - Cross-Platform Automation,GID-4402,$28000,Discovery,https://salesforce.com/opp/2,
+Acme Corp,App Automate - Security Testing,GID-8821,$15000,Closed Won,"Mar 10, 2024"
+Acme Corp,Visual Testing - Marketing Team,GID-4402,$8500,Closed Won,"Feb 28, 2024"
+Acme Corp,Legacy Device Farm - Sunset,GID-9910,$50000,Closed Lost,"Feb 15, 2024"
+Acme Corp,Standard Support Tier Upgrade,GID-8821,$2000,Closed Lost,"Jan 20, 2024"
+Acme Corp,SDK Integration - Gaming Dept,GID-4402,$12000,Closed Lost,"Jan 05, 2024"
+Acme Corp,Desktop Browser - AdHoc Unit,GID-9910,$4500,Closed Lost,"Dec 15, 2023"
+Acme Corp,Performance Testing Pilot,GID-8821,$9000,Closed Lost,"Nov 30, 2023"
