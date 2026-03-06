@@ -11,6 +11,15 @@ async function fetchFromGAS(action: string, params: Record<string, string> = {})
   url.searchParams.append("action", action);
   url.searchParams.append("spreadsheetId", SPREADSHEET_ID);
   
+  // --- NEW PASSCODE PROMPT ---
+  let pc = sessionStorage.getItem("app_passcode");
+  if (!pc) {
+    pc = prompt("🔒 Secure Dashboard. Please enter the access passcode:");
+    if (pc) sessionStorage.setItem("app_passcode", pc);
+  }
+  url.searchParams.append("passcode", pc || "");
+  // ---------------------------
+
   for (const [key, value] of Object.entries(params)) {
     if (value) url.searchParams.append(key, value);
   }
@@ -21,6 +30,16 @@ async function fetchFromGAS(action: string, params: Record<string, string> = {})
   }
   
   const data = await res.json();
+  
+  // --- IF PASSCODE IS WRONG ---
+  if (data.error === "UNAUTHORIZED") {
+    sessionStorage.removeItem("app_passcode");
+    alert("Incorrect passcode! Please try again.");
+    window.location.reload();
+    throw new Error("Unauthorized");
+  }
+  // ----------------------------
+
   if (data.error) {
     throw new Error(data.error);
   }
